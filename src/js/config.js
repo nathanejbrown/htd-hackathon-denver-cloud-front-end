@@ -13,6 +13,12 @@
       controller: 'mainController',
       controllerAs: 'mainCtrl',
       css: 'src/css/main.css'
+    })
+    .when('/loggedin', {
+      templateUrl: './src/js/components/loggedin/loggedin.view.html',
+      controller: 'mainController',
+      controllerAs: 'mainCtrl',
+      css: 'src/css/main.css'
     });
   }
 

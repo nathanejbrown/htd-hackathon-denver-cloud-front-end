@@ -26,3 +26,28 @@ nav {
   padding: 3%;
   border-radius: 5%;
 }
+
+.navigation {
+  border-right: 1px solid grey;
+  overflow: auto;
+  max-height: 100vh;
+}
+
+.cloudPic {
+  height: 10vh;
+  width: 10vw;
+}
+
+.bigImage {
+  height: 50vh;
+  width: 50vw;
+  border: none;
+}
+
+.mainSection {
+  border-bottom: 1px solid black;
+}
+
+.colorGrey {
+  background-color: #fafafa;
+}

@@ -1,0 +1,29 @@
+<nav class="header-white">
+  <div class="nav-wrapper">
+    <a href="#" class="brand-logo center"><p class="fancyScript">denver.cloud</p></a>
+  </div>
+</nav>
+
+<div class="row colorGrey">
+  <!-- <div class="navigation col s3"><img ng-src="{{ mainCtrl.clouds.cirrus.imgS }}"></div> -->
+  <div class="navigation col s3">
+    <h4 class="brand-logo center">Mile-High Puff Pieces</h4>
+    <div ng-repeat="(key, cloud) in mainCtrl.clouds">
+      <center>
+        <img ng-src="{{cloud.imgL}}" class="cloudPic" ng-click="mainCtrl.changeDisplayImage(cloud)">
+        <h5 style="border-bottom: 1px solid black">{{key}}</h5>
+      </center>
+    </div>
+  </div>
+  <div class="mainSection col s9">
+    <img ng-src="{{mainCtrl.currentImage}}" class="bigImage">
+  </div>
+  <div class="cloudInfo col s9">
+    <h5>{{mainCtrl.stonerQuote}}</h5>
+    <br>
+    <hr ng-if="mainCtrl.fact1">
+    <h6>{{mainCtrl.fact1}}</h6>
+    <hr ng-if="mainCtrl.fact1">
+    <h6>{{mainCtrl.fact2}}</h6>
+  </div>
+</div>
