@@ -6,6 +6,7 @@
 
   angular
     .module('denver-cloud', [
+      'ngRoute',
       'denver-cloud.config',
       'denver-cloud.components.main'
     ]);

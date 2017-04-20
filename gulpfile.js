@@ -1,4 +1,4 @@
-\// *** dependencies *** //
+// *** dependencies *** //
 
 const gulp = require('gulp');
 const jshint = require('gulp-jshint');
