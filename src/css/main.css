@@ -1,4 +1,28 @@
-/* add custom styles */
-h1 {
-  color: red;
+.fancyScript {
+  font-family: 'Indie Flower', cursive;
+  color: black;
+  margin: 0;
+}
+
+.header-white {
+  background-color: #e8e9eb;
+}
+
+nav {
+  margin: 0;
+}
+
+.denver {
+  background-image: url("../images/humididy_1489164230315_8944724_ver1.0.jpeg");
+  height: 93vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.loginForm {
+  background-color: white;
+  opacity: 0.8;
+  padding: 3%;
+  border-radius: 5%;
 }
